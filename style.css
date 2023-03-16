@@ -3,6 +3,7 @@
     padding: 0;
     overflow-x: hidden;
     font-family: "Hanken Grotesk", sans-serif;
+    transition: all .3s ease;
 }
 
 body {
@@ -138,6 +139,12 @@ p,
     border-radius: 50px;
     background-color: hsl(224, 30%, 27%);
     color: hsl(241, 100%, 89%);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: linear-gradient(to top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
 }
 
 @media (max-width:450px) {
